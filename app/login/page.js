@@ -7,7 +7,7 @@ const Login = () => {
     return (
     <>
     <div className="py-6"/>
-    <div className="mt-14 p-5 w-full max-w-md mx-auto overflow-hidden border rounded-lg">
+    <div className="mt-14 p-5 w-full max-w-md mx-auto overflow-hidden bg-white border rounded-lg">
         <div className="px-6 py-4 justify-center">
             <h2 className="text-2xl font-bold text-center text-sky-950">Login</h2>
             <h3 className="mt-1 text-md font-medium text-center text-sky-900">Welcome Back</h3>
