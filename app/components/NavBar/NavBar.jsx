@@ -16,8 +16,8 @@ const NavBar = () => {
             />
             </Link>
 
-            <Link href="/">
-                <button className="mt-4 p-3 rounded-md leading-4 font-bold text-white transition-colors duration-200 transform bg-sky-900 hover:bg-sky-950  focus:outline-none">Log in</button>
+            <Link href="/login">
+                <button className="mt-4 p-3 rounded-md leading-4 text-white transition-colors duration-200 transform bg-sky-900 hover:bg-sky-950  focus:outline-none">Log in</button>
             </Link>
         </nav>
     </header>
