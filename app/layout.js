@@ -1,9 +1,10 @@
-import { Inter } from 'next/font/google'
+import { Krona_One } from 'next/font/google'
 import './globals.css'
 import NavBar from './components/NavBar/NavBar'
 import { MantineProvider } from '@mantine/core'
+import '@mantine/core/styles.css';
 
-const krona = Inter({ subsets: ['latin'],weight: "400" })
+const krona = Krona_One({ subsets: ['latin'],weight: "400" })
 
 export const metadata = {
   title: 'Daily Task Manager',

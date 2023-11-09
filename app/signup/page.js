@@ -11,9 +11,9 @@ const page = () => {
             <h2 className="text-2xl font-bold text-center text-sky-950">Signup</h2>
             <h3 className="mt-1 text-md font-medium text-center text-sky-900">Create Account</h3>
             <form>
-                    <div className="w-full mt-4 text-sm">
+                    <div className="w-full mt-4">
                         <Input
-                            variant="unstyled"
+                            variant="default"
                             name="email" type="email"
                             placeholder="Email Address"
                             className='p-1'
@@ -21,7 +21,7 @@ const page = () => {
                         />
                     </div>
 
-                    <div className="w-full mt-4 text-sm">
+                    <div className="w-full mt-4">
                         <Input
                             variant="default"
                             name="username"

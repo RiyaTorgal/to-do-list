@@ -6,9 +6,9 @@ import React from 'react'
 const Login = () => {
     return (
     <>
-    <div className="py-4"/>
-    <div className="mt-14 p-5 w-full max-w-sm mx-auto overflow-hidden bg-white border rounded-lg">
-        <div className="px-6 py-4">
+    <div className="py-6"/>
+    <div className="mt-14 p-5 w-full max-w-md mx-auto overflow-hidden border rounded-lg">
+        <div className="px-6 py-4 justify-center">
             <h2 className="text-2xl font-bold text-center text-sky-950">Login</h2>
             <h3 className="mt-1 text-md font-medium text-center text-sky-900">Welcome Back</h3>
             <form>
@@ -17,6 +17,7 @@ const Login = () => {
                             variant="default"
                             name="email" type="email"
                             placeholder="Email Address"
+                            className='p-1'
                             required
                         />
                     </div>
@@ -28,6 +29,7 @@ const Login = () => {
                             minLength={3}
                             maxLength={16}
                             placeholder="Password"
+                            className='p-1'
                             required
                         />
                     </div>
