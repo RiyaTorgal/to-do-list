@@ -8,7 +8,7 @@ const page = () => {
     <div className="mt-14 p-5 w-full max-w-md mx-auto overflow-hidden bg-white border rounded-lg">
         <div className="px-6 py-4">
             <h2 className="text-2xl font-bold text-center text-sky-950">Create Task</h2>
-            <form>
+            <form method='POST'>
                 <div className="w-full mt-4">
                     <Input
                         variant="default"

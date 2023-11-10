@@ -11,7 +11,7 @@ const Login = () => {
         <div className="px-6 py-4 justify-center">
             <h2 className="text-2xl font-bold text-center text-sky-950">Login</h2>
             <h3 className="mt-1 text-md font-medium text-center text-sky-900">Welcome Back</h3>
-            <form>
+            <form method='POST'>
                     <div className="w-full mt-4">
                         <Input
                             variant="default"
